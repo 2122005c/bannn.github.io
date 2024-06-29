@@ -1,5 +1,5 @@
-let teamATime = 300; // 5 minutes in seconds
-let teamBTime = 300; // 5 minutes in seconds
+let teamATime = 180 ; // 5 minutes in seconds
+let teamBTime = 180 ; // 5 minutes in seconds
 let teamATimer;
 let teamBTimer;
 let teamABanCount = 0;
