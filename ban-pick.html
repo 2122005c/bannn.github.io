@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ban/Pick System</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ban/Pick System</h1>
+        <div class="ban-section">
+            <h2>Team A - Banned Characters</h2>
+            <ul id="team-a-ban-list"></ul>
+            <input type="text" id="team-a-ban-input" placeholder="Enter character to ban">
+            <button onclick="banCharacter('team-a')">Ban</button>
+            <p id="team-a-timer">05:00</p>
+        </div>
+        <div class="ban-section">
+            <h2>Team B - Banned Characters</h2>
+            <ul id="team-b-ban-list"></ul>
+            <input type="text" id="team-b-ban-input" placeholder="Enter character to ban">
+            <button onclick="banCharacter('team-b')">Ban</button>
+            <p id="team-b-timer">05:00</p>
+        </div>
+    </div>
+    <script src="scriptss.js"></script>
+</body>
+</html>
